@@ -44,6 +44,7 @@ main h1 {
 
     #container {
         padding: 5rem 2rem;
+        /* short hand: image repeat position / size */
         background: url('../images/bg.svg') no-repeat 80% / clamp(30rem, 54vw, 56rem);      
     }
     
@@ -67,7 +68,7 @@ main h1 {
     main h1 {
         font-weight: bold;
         width: min(300px, 80%);
-        line-height: 0.88;
+        line-height: 0  .88;
 
         margin: clamp(10%, 9vh, 12%) 0 4rem;
     }
@@ -79,6 +80,7 @@ main h1 {
     }
 
     .visit p {
+        font-size: 2.4rem;
         line-height: 1.5;
         width: clamp(20rem, 20vw, 30rem);
     }
